@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "KETHWADI",
+    "slug": "kethwadi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "kethwadi",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "backgroundColor": "#F5F7F2",
+    "splash": {
+      "backgroundColor": "#0A3B2C",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "package": "com.kethwadi.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#0A3B2C"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kethwadi.app"
+    },
+    "web": { "bundler": "metro", "output": "static" },
+    "plugins": [
+      "expo-router",
+      ["expo-image-picker", { "photosPermission": "KETHWADI uses your photos to add land and claim images." }]
+    ],
+    "experiments": { "typedRoutes": false }
+  }
+}
